@@ -3,27 +3,21 @@
 
 
 div {
-  width: 300px; 
-  border: 15px solid rgb(238, 57, 223);
+  background-color: pink;
+  width: 200px; 
+  border: 15px solid plum;
   padding: 50px; 
   margin: 20px; 
 } 
 
-body {
-    background-color: pink; 
-}
 
 .center {
     text-align: center;
 } 
 
+
 h1 {
     text-shadow: 2px 2px 5px rgb(238, 57, 223)
 }
 
-p {
-    padding: 5px;
-    outline-style: inset;
-    outline-color:rgb(238, 57, 223) 
-} 
-
+    
