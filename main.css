@@ -1,5 +1,9 @@
-@charset "UTF-8" 
+@charset "UTF-8";
 /* CSS Document */ 
+.center {
+    text-align: center;
+} 
+
 body {
     background-color: pink; 
 }
