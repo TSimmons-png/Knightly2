@@ -2,8 +2,7 @@
 /* CSS Document */ 
 
 #container{
-    display: flex;
-    justify-content: space-between
+    display: align
     align-items: center;
     min-height: 400px;
 
@@ -12,16 +11,14 @@
     height: 515px;
     width: 335px;
     margin: 60px;
+   
+}
 
-}
-body {
-    background-image: url(".jpg");
-}
 
 div {
-  background-color: pink;
+  background-color: rgb(255, 192, 203);
   width: 200px; 
-  border: 15px solid plum;
+  border: 15px solid rgb(221, 160, 221);
   padding: 50px; 
   margin: 20px; 
 } 
@@ -32,10 +29,6 @@ img {
     height: 250px
 }
 
-div.container {
-    text-align: center;
-    padding: 10px 20px;
-}
 
 h1 {
     text-shadow: 2px 2px 5px rgb(238, 57, 223)
