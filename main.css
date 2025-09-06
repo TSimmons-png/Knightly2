@@ -1,7 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */ 
 
-
+body {
+    background-image: url("papertexture.jpg");
+}
 div {
   background-color: pink;
   width: 200px; 
