@@ -1,27 +1,34 @@
 @charset "UTF-8";
 /* CSS Document */ 
 
-#container{
-    display: align
-    align-items: center;
-    min-height: 400px;
+.flex-container {
+    display: flex;
+}
 
-} 
+.flex-container > div {
+    margin: 15px;
+    padding: 50px;
+    font-size:25px;
+}
+
 #container div{
     height: 515px;
     width: 335px;
     margin: 60px;
-   
 }
-
 
 div {
   background-color: rgb(255, 192, 203);
   width: 200px; 
-  border: 15px solid rgb(221, 160, 221);
   padding: 50px; 
   margin: 20px; 
+  border: 15px solid rgb(221, 160, 221);
 } 
+
+
+h1 {
+    text-shadow: 2px 2px 5px rgb(238, 57, 223) 
+}
 
 img {
     float: right
@@ -30,7 +37,4 @@ img {
 }
 
 
-h1 {
-    text-shadow: 2px 2px 5px rgb(238, 57, 223) 
-}
 
